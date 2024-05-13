@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>asdfghjk </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ef6e0a2d8d.js" crossorigin="anonymous"></script> <!-----icon script-->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-hourglass-half" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p></p>
+                <h1> Hi, I'm <span>Hariprasath</span><br> Cybersecurity Engineer</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.jpg" alt="User Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a cybersecurity professional and ethical hacker with a passion for network security, I am dedicated to staying ahead of the constantly evolving threat landscape. In my role as a Networking and Network Security Engineer at Raksha Technologies, I am responsible for designing, implementing, and maintaining secure networks for our clients.My experience in both offensive and defensive security has given me a unique perspective on network security. I understand how attackers think and can use this knowledge to anticipate and prevent potential threats. At the same time, I am committed to staying up-to-date with the latest security technologies and best practices to ensure that our client's networks remain secure.I am skilled in a variety of networking and security tools and technologies, including firewalls, intrusion detection/prevention systems, VPNs, and vulnerability scanners. I am also experienced in conducting security assessments and penetration testing to identify potential vulnerabilities and recommend mitigation strategies.If you are looking for a seasoned cybersecurity professional and ethical hacker who can help you secure your network infrastructure and protect against cyber threats, please feel free to reach out to me. I would be happy to connect and discuss how I can assist you.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>  
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Ethical Hacking</span><br>Ethical Hacking From Scratch,Penetration Tester at Hack Hunt™</li>
+                            <li><span>Android Studio</span><br>Application Developer at ADGB CORPORATION PVT LTD</li>
+                            <li><span>Cybersecurity</span><br>Network Security Engineer at Raksha TechnologiesNetwork Security Engineer at Raksha Technologies,Cybersecurity Nano Degree </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Ethical Hacking</span><br>Ethical Hacking From Scratch,Penetration Tester at Hack Hunt™</li>
+                            <li><span>Ethical Hacking</span><br>Ethical Hacking From Scratch,Penetration Tester at Hack Hunt™</li>
+                            <li><span>Android Studio</span><br>Application Developer at ADGB CORPORATION PVT LTD</li>
+                            <li><span>Cybersecurity</span><br>Network Security Engineer at Raksha TechnologiesNetwork Security Engineer at Raksha Technologies,Cybersecurity Nano Degree </li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Ethical Hacking</span><br>Ethical Hacking From Scratch,Penetration Tester at Hack Hunt™</li>
+                            <li><span>Android Studio</span><br>Application Developer at ADGB CORPORATION PVT LTD</li>
+                            <li><span>Cybersecurity</span><br>Network Security Engineer at Raksha TechnologiesNetwork Security Engineer at Raksha Technologies,Cybersecurity Nano Degree </li>
+                        
+                        </ul>
+                    </div>    
+                </div>
+                </div>
+            </div>
+        </div>
+        
+<!------------services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-user-secret"></i>  <!------------icon---------->
+                <h2>Ethical Hacking</h2>
+                <p>Description for Ethical Hacking service.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>   <!------------icon---------->
+                <h2>Network Security</h2>
+                <p>Description for Android Studio service.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-eye"></i>   <!------------icon---------->
+                <h2>Cybersecurity</h2>
+                <p>Description for Cybersecurity service.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="images/user5.jpg">
+                <div class="layer">
+                    <h3>Security Solution Implementation</h3>
+                    <p>Implementing cybersecurity solutions on client environments</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/user6.jpg">
+                <div class="layer">
+                    <h3>Penetration Testing</h3>
+                    <p>Scanning vulnerabilities and Securing the target websites</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/user4.jpg">
+                <div class="layer">
+                    <h3>Patch Management</h3>
+                    <p>Securing your organisation by patching the Endpoints on time</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------contact---------->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>selvarasan@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>9360646129</p>
+            <div class="social-icons">
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/SELVARASAN Resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <P>Copyright @Selvarasan Made With <i class="fa-solid fa-heart"></i> by selvarasan instagram page</P>
+</div>
+</div>
+
+
+
+<script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+</script>
+
+<script>
+    var sidemenu =document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0"; 
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"; 
+    }
+
+</script>
+<script>
+    const scriptURL = '<SCRIPT URL>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHtml ="Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
+<!------------contact----------
+var sheetName = 'Sheet1';
+var scriptProp = PropertiesService.getScriptProperties(); // Fixed parenthesis
+
+function intialSetup() {
+  var activeSpreadsheet = SpreadsheetApp.getActiveSpreadsheet(); // Fixed parenthesis
+  scriptProp.setProperty('key', activeSpreadsheet.getId());
+}
+
+function doPost(e) {
+  var lock = LockService.getScriptLock();
+  lock.tryLock(10000);
+
+  try {
+    var doc = SpreadsheetApp.openById(scriptProp.getProperty('key'));
+    var sheet = doc.getSheetByName(sheetName);
+    var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
+    var nextRow = sheet.getLastRow() + 1;
+
+    var newRow = headers.map(function (header) {
+      return header === 'timestamp' ? new Date() : e.parameter[header];
+    });
+
+    sheet.getRange(nextRow, 1, 1, newRow.length).setValues([newRow]);
+
+    return ContentService
+      .createTextOutput(JSON.stringify({ 'result': 'success', 'row': nextRow }))
+      .setMimeType(ContentService.MimeType.JSON);
+  } catch (e) {
+    return ContentService
+      .createTextOutput(JSON.stringify({ 'result': 'error', 'error': e }))
+      .setMimeType(ContentService.MimeType.JSON);
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+        
